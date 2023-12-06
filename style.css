@@ -1,0 +1,37 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #232D3F;
+}
+
+main{
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+input{
+  padding: 10px;
+  border:none;
+  border-bottom: 2px solid gray;
+  font-size: 30px;
+  outline: none;
+  caret-color: black;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-image: linear-gradient(to right, #00fffc, #00011a, #1706ff, #15009e, #d232aa, #fa8c3d, #fff480, #7ed4fb, #040d8b, #010014);
+}
+
